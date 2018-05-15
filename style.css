@@ -1,0 +1,60 @@
+*{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: "Arial", "Verdana", sans-serif;
+}
+
+h1{
+  color: cornflowerblue ;
+}
+
+ul{
+  font-size: 18px;
+  list-style: disclosure-closed;
+}
+li{
+  margin-bottom: 15px;
+}
+#info {
+  font-size: 17px;
+}
+
+#titre {
+  font-size: 26px;
+  text-align: center;
+  background-color: cornflowerblue;
+  border-style: solid;
+}
+.comp {
+  margin-top: 33px;
+}
+#compe {
+  border-bottom-style: solid;
+  border-bottom-color: cornflowerblue;
+  border-bottom-width: 12px;
+}
+
+.Exp{
+  margin-top: 33px;
+}
+#expe {
+  border-bottom-style: solid;
+  border-bottom-color: cornflowerblue;
+  border-bottom-width: 9px;
+}
+.form{
+  margin-top: 33px;
+}
+#forma {
+  border-bottom-style: solid;
+  border-bottom-color: cornflowerblue;
+  border-bottom-width: 9px;
+}
+.info{
+  margin-top: 33px;
+}
+#infor {
+  border-bottom-style: solid;
+  border-bottom-color: cornflowerblue;
+  border-bottom-width: 9px;
+}
