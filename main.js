@@ -1,6 +1,6 @@
 (function(){
 var button1 = document.getElementById('info');
-var thomas = document.getElementsByTagName('H1')[0];
+var thomas = document.getElementById('thomas');
 var button2 = document.getElementById('titre');
 var compe = document.getElementById('compe');
 var expe = document.getElementById('expe');
@@ -21,14 +21,32 @@ expe = setHidden(expe);
 forma = setHidden(forma);
 infor = setHidden(infor);
 
+thomas = setvisible (thomas, button1)
+button2 = setvisible (button2, compe);
+
+ul1 = setvisible (compe, ul1);
+ul2= setvisible(expe,ul2);
+ul3 = setvisible(forma,ul3);
+ul4 = setvisible(expe, ul4);
+
+
 function setHidden(variable){
 
 variable.style.display = "none";
-
   return variable;
 }
 
-compe.addEventListener( "click", functionclick3);
+function setvisible(contenant, contenu){
+  contenant.addEventListener("Click", functionvisible(contenu));
+}
+
+function functionvisible(contenu){
+  if (contenu.style.display == "none") {
+    contenu.style.display = 'block';
+  }else{
+    contenu.style.display = 'none';
+  }};
+/*compe.addEventListener( "click", functionclick3);
 function functionclick3(){
   ul1.style.display = 'block';
 };
@@ -56,6 +74,7 @@ function functionclick2(){
  thomas.addEventListener( "click", functionclick);
  function functionclick(){
    button1.style.display = 'block';
- };
-console.log(thomas);
+ };*/
+
+
 })()
